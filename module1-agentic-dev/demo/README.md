@@ -11,11 +11,15 @@ demo/
 │   ├── Controllers/AccountController.cs
 │   ├── Services/AccountService.cs   # ⭐ RegisterAccount 待實作（含業務規則註解）
 │   └── Models/Account.cs
-└── .github/prompts/
-    └── validate-national-id.prompt.md   # 可重用的 Custom Prompt 範例
+└── .github/
+    ├── prompts/
+    │   └── validate-national-id.prompt.md   # 可重用的 Custom Prompt 範例
+    └── agents/
+        └── account-opening-agent.agent.md   # 線上開戶 Custom Agent 範例
 ```
 
 Repo root 也保留一份相同用途的 [`../../.github/prompts/validate-national-id.prompt.md`](../../.github/prompts/validate-national-id.prompt.md)，
+以及 [`../../.github/agents/account-opening-agent.agent.md`](../../.github/agents/account-opening-agent.agent.md)，
 方便從 workshop 根目錄開啟 VS Code 時使用。
 
 ## 業務規則（寫在 `AccountService.cs` 註解）
@@ -31,3 +35,6 @@ Repo root 也保留一份相同用途的 [`../../.github/prompts/validate-nation
 
 打開 `src/Services/AccountService.cs`，依註解中的業務規則，用 Copilot Agent 完成
 `RegisterAccount`。詳細實作步驟見 [`../handson/`](../handson/)。
+
+若要展示 Custom Agent，可在 Copilot Chat 選擇 **Account Opening Agent**，再要求它補完
+`RegisterAccount` 並回報 BR-1~5 / NFR-1~2 的覆蓋情況。

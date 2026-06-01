@@ -21,4 +21,4 @@
 - Security vulnerabilities：輸入處理、DB 存取、授權、機密、敏感資料 log、交易一致性
 - Compliance：對照 PRD 的 FR / BR / NFR，標註對應條目、風險與修正建議
 
-使用時可在 Chat 將 `TransferController.cs`、`TransferService.cs`、PRD 與這份 instruction 一併附上；若 VS Code 已支援 instructions 選取，也可透過 **Add Context → Instructions** 加入。
+建議先完成「不附 PRD」與「附 PRD」兩次審查，讓學員比較差異；到正式整理 findings table 時，再將 `TransferController.cs`、`TransferService.cs`、PRD 與這份 instruction 一併附上。若 VS Code 已支援 instructions 選取，也可透過 **Add Context → Instructions** 加入。

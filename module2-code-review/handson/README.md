@@ -9,13 +9,13 @@
 
 - VS Code + GitHub Copilot
 - 開啟待審程式 `module2-code-review/demo/src/`（`TransferController.cs`、`TransferService.cs`）
-- 找到 custom instruction：`.github/instructions/module2-security-scanning.instructions.md`
+- 找到 custom instruction：`.github/instructions/module2-security-scanning.instructions.md`（Step 3 才會使用）
 
 ---
 
 ## Step 1：先「不附 PRD」審查一次
 
-在 Copilot Chat 選取 / 附上兩個 `.cs` 檔，並附上 `module2-security-scanning.instructions.md`，輸入：
+在 Copilot Chat 選取 / 附上兩個 `.cs` 檔，先不要附 PRD，也不要附 custom instruction，輸入：
 
 > 請審查這段線上轉帳程式，列出安全弱點與風險等級。
 
@@ -25,7 +25,7 @@
 
 ## Step 2：再「附上 PRD」審查一次
 
-將 `PRD-線上轉帳.md` 一併附上，保留 custom instruction，輸入：
+將 `PRD-線上轉帳.md` 一併附上，但先不要附 custom instruction，輸入：
 
 > 請對照這份 PRD 審查 `TransferController.cs` 與 `TransferService.cs`，
 > 列出不符合**業務規則（BR-x）**與**非功能需求（NFR-x）**之處，
@@ -35,9 +35,9 @@
 
 ---
 
-## Step 3：產出審查清單
+## Step 3：套用 Custom Instruction 產出審查清單
 
-請 Copilot 整理成表格：
+此時再附上 `module2-security-scanning.instructions.md`，請 Copilot 依固定安全/合規審查格式整理：
 
 > 請依 custom instruction 的格式輸出 findings table：Risk、Finding、Evidence、PRD / Control、Impact、Recommendation。
 
@@ -54,7 +54,7 @@
 ## 完成檢核
 
 - [ ] 完成「無 PRD」與「附 PRD」兩次審查並比較差異
-- [ ] 審查時有套用 `module2-security-scanning.instructions.md`
+- [ ] Step 3 產出正式清單時有套用 `module2-security-scanning.instructions.md`
 - [ ] 產出缺陷 → PRD 條目 → 風險 → 修正 的審查清單
 - [ ] （選配）完成一項修正
 

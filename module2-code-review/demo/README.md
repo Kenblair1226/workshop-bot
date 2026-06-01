@@ -24,7 +24,7 @@
 
 ### 建議的 Copilot 提示
 
-先附上 `module2-security-scanning.instructions.md`、PRD 與兩個待審 `.cs` 檔，再輸入：
+完成初步審查後，附上 `module2-security-scanning.instructions.md`、PRD 與兩個待審 `.cs` 檔，再輸入：
 
 > 請對照附上的 PRD（線上轉帳）審查 `TransferController.cs` 與 `TransferService.cs`，
 > 列出不符合業務規則（BR-x）與非功能需求（NFR-x）之處，標註對應條目與風險等級，
