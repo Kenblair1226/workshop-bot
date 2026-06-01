@@ -1,0 +1,15 @@
+instructor-only/
+# Windows / OneDrive alternate-data-stream sidecar files
+*:Zone.Identifier
+*:sec.endpointdlp
+*.log
+*.tmp
+.DS_Store
+node_modules/
+dist/
+coverage/
+.env
+.idea/
+.vscode/
+*.bak
+*.swp
