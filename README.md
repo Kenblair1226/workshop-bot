@@ -4,7 +4,7 @@
 
 半天（約 3 小時）GitHub Copilot 實戰 Workshop。聚焦三大主題：
 Agent 自動產生程式碼、AI 程式碼審查（安全 + 業務邏輯）、以及 Spec Driven
-Development（SDD）從 PRD 到完成開發的工作流。
+Development（SDD）從 PRD 到完成開發的工作流。全程由講師現場 Live Demo 帶領。
 
 ## 環境需求
 
@@ -32,5 +32,5 @@ Development（SDD）從 PRD 到完成開發的工作流。
 ## 怎麼開始
 
 1. 閱讀 [`agenda.md`](agenda.md) 了解整體流程。
-2. 各 Module 資料夾的 `README.md` 有講解重點；`demo/` 為示範程式、`handson/` 為學員實作步驟。
+2. 各 Module 資料夾的 `README.md` 有講解重點；`demo/` 內含示範程式與**講師 Live Demo 操作腳本**。
 3. Module 2、3 以 [`shared/PRD-線上轉帳.md`](shared/PRD-線上轉帳.md) 作為需求規格基準。

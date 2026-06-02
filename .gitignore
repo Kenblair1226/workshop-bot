@@ -1,4 +1,3 @@
-instructor-only/
 # Windows / OneDrive alternate-data-stream sidecar files
 *:Zone.Identifier
 *:sec.endpointdlp
@@ -13,3 +12,6 @@ coverage/
 .vscode/
 *.bak
 *.swp
+
+# Playwright/Chromium temp files from html2pptx rendering
+.org.chromium.Chromium.*

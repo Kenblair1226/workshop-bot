@@ -7,9 +7,9 @@ Spec Driven Development。半天（約 3 小時），三個 Module。
 
 - `README.md` / `agenda.md` — workshop 總覽與議程
 - `module1-agentic-dev/`、`module2-code-review/`、`module3-sdd/` — 各主題教材，
-  每個資料夾含 `README.md`（講解重點）、`demo/`（示範用 code）、`handson/`（學員包）
+  每個資料夾含 `README.md`（講解重點）與 `demo/`（示範 code + 講師 Live Demo 操作腳本）
 - `shared/PRD-線上轉帳.md` — Module 2 / 3 共用的範例 PRD
-- 非學員用素材不放入公開教材；學員可見檔案只保留必要的 demo、handson 與共用規格
+- 非學員用素材不放入公開教材；學員可見檔案只保留必要的 demo 與共用規格
 
 ## 重要：本 repo 會公開給學員下載
 

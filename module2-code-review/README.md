@@ -9,8 +9,7 @@
 
 ## 內容
 
-- [`demo/`](demo/) — 待審外包 code（線上轉帳 API）
-- [`handson/`](handson/) — 學員審查步驟
+- [`demo/`](demo/) — 待審外包 code（線上轉帳 API）+ **講師 Live Demo 審查腳本**
 - 規格基準：[`../shared/PRD-線上轉帳.md`](../shared/PRD-線上轉帳.md)
 - Custom instruction：[`../.github/instructions/module2-security-scanning.instructions.md`](../.github/instructions/module2-security-scanning.instructions.md)
 

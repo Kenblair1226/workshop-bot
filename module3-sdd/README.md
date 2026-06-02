@@ -20,6 +20,5 @@
 
 ## 內容
 
-- [`demo/`](demo/) — Spec Kit 參考產出（constitution/spec/plan/tasks）
-- [`handson/`](handson/) — 學員從 PRD 到 `/speckit.implement` 的步驟
+- [`demo/`](demo/) — Spec Kit 參考產出（constitution/spec/plan/tasks）+ **講師 Live Demo 操作腳本**
 - 規格基準：[`../shared/PRD-線上轉帳.md`](../shared/PRD-線上轉帳.md)

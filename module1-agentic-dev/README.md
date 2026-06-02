@@ -10,8 +10,7 @@
 
 ## 內容
 
-- [`demo/`](demo/) — 線上開戶起始骨架（`RegisterAccount` 待以 Agent 補完）
-- [`handson/`](handson/) — 學員實作步驟
+- [`demo/`](demo/) — 線上開戶起始骨架 + **講師 Live Demo 操作腳本**（`RegisterAccount` 待以 Agent 補完）
 - Custom Prompt：[`../.github/prompts/validate-national-id.prompt.md`](../.github/prompts/validate-national-id.prompt.md)
 - Custom Agent：[`../.github/agents/account-opening-agent.agent.md`](../.github/agents/account-opening-agent.agent.md)
 
